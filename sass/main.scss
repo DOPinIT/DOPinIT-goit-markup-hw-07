@@ -3,6 +3,12 @@
 @import './utils/placeholders';
 @import './utils/mixin';
 
+@import './base/reset';
+@import './base/common';
+
+@import './components/container';
+@import './components/section';
+
 @import './layouts/header';
 @import './layouts/hero';
 @import './layouts/modal';
@@ -13,13 +19,5 @@
 
 @import './layouts/portfolio-filters';
 @import './layouts/portfolio-gallery';
-
 @import './layouts/footer';
-
-@import './base/reset';
-@import './base/common';
-
-@import './components/container';
-@import './components/section';
-
 
